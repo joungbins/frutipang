@@ -3814,15 +3814,13 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Exps.loadingprogress,
 		C3.Plugins.TiledBg.Acts.SetImageOffsetX,
 		C3.Plugins.TiledBg.Exps.ImageOffsetX,
-		C3.Plugins.System.Cnds.OnLoadFinished,
-		C3.Plugins.System.Acts.LoadObjectTextures,
-		C3.Plugins.System.Acts.WaitForPreviousActions,
 		C3.Plugins.System.Cnds.OnLayoutStart,
+		C3.Plugins.System.Acts.GoToLayout,
+		C3.Plugins.System.Acts.Wait,
 		C3.Plugins.System.Cnds.Compare,
 		C3.Plugins.System.Exps.layoutname,
 		C3.Behaviors.Tween.Acts.TweenOneProperty,
 		C3.Plugins.System.Exps.layoutheight,
-		C3.Plugins.System.Acts.Wait,
 		C3.Plugins.Sprite.Exps.Height,
 		C3.Behaviors.Tween.Acts.TweenTwoProperties,
 		C3.Plugins.Sprite.Exps.Width,
@@ -3831,9 +3829,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.MoveToBottom,
 		C3.Plugins.Spritefont2.Acts.SetScale,
 		C3.Plugins.Spritefont2.Acts.SetCharacterSpacing,
-		C3.Plugins.Touch.Cnds.OnTouchStart,
-		C3.Plugins.Audio.Acts.Play,
-		C3.Plugins.System.Acts.GoToLayout,
 		C3.Plugins.Sprite.Acts.SetInstanceVar,
 		C3.Plugins.Sprite.Exps.X,
 		C3.Plugins.Sprite.Exps.Y,
@@ -3847,14 +3842,28 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.SetDefaultColor,
 		C3.Plugins.System.Exps.rgba255,
 		C3.ScriptsInEvents.Levels_ev_Event5_Act1,
+		C3.Plugins.Audio.Acts.Play,
 		C3.Plugins.Sprite.Cnds.CompareFrame,
 		C3.Plugins.Audio.Cnds.IsTagPlaying,
 		C3.Plugins.Touch.Cnds.OnTapGestureObject,
 		C3.Plugins.Sprite.Acts.SetSize,
+		C3.Plugins.System.Acts.WaitForPreviousActions,
 		C3.ScriptsInEvents.Levels_ev_Event9_Act5,
 		C3.Plugins.System.Cnds.IsGroupActive,
-		C3.Plugins.Audio.Acts.StopAll,
+		C3.Plugins.Touch.Cnds.IsTouchingObject,
+		C3.Plugins.Sprite.Cnds.CompareInstanceVar,
+		C3.Plugins.System.Cnds.TriggerOnce,
+		C3.Plugins.Sprite.Acts.SetPos,
+		C3.Plugins.Touch.Cnds.OnTouchEnd,
+		C3.Plugins.Sprite.Acts.SetX,
 		C3.Plugins.Sprite.Acts.Destroy,
+		C3.Plugins.System.Cnds.PickByComparison,
+		C3.Plugins.System.Cnds.ForEach,
+		C3.Plugins.Spritefont2.Exps.Y,
+		C3.Plugins.Spritefont2.Acts.Destroy,
+		C3.Plugins.Sprite.Acts.MoveToTop,
+		C3.Plugins.Browser.Acts.GoToURLWindow,
+		C3.Plugins.Audio.Acts.StopAll,
 		C3.ScriptsInEvents.Game_ev_Event2_Act3,
 		C3.ScriptsInEvents.Game_ev_Event2_Act4,
 		C3.Plugins.System.Acts.SetLayerVisible,
@@ -3864,15 +3873,12 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Text.Cnds.CompareInstanceVar,
 		C3.Plugins.Text.Acts.SetText,
 		C3.Plugins.Sprite.Acts.SetAnim,
-		C3.Plugins.Sprite.Acts.SetX,
 		C3.Plugins.Spritefont2.Acts.SetInstanceVar,
-		C3.Plugins.Spritefont2.Acts.Destroy,
 		C3.Plugins.System.Exps.random,
 		C3.Plugins.Sprite.Exps.AnimationFrameCount,
 		C3.Plugins.Text.Acts.SetInstanceVar,
 		C3.Plugins.Text.Acts.SetWidth,
 		C3.Plugins.Sprite.Cnds.IsOnLayer,
-		C3.Plugins.Sprite.Cnds.CompareInstanceVar,
 		C3.Plugins.System.Exps.rgbex255,
 		C3.Plugins.TiledBg.Exps.X,
 		C3.Plugins.TiledBg.Exps.Width,
@@ -3891,28 +3897,20 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.ResetGlobals,
 		C3.Plugins.System.Cnds.LayerVisible,
 		C3.ScriptsInEvents.Game_ev_Event66_Act2,
-		C3.Plugins.System.Cnds.PickByComparison,
 		C3.Plugins.Sprite.Acts.SetAngle,
-		C3.Plugins.System.Cnds.ForEach,
 		C3.Plugins.Sprite.Acts.SetTowardPosition,
 		C3.Plugins.Sprite.Acts.SetCollisions,
 		C3.Plugins.Sprite.Cnds.OnCreated,
-		C3.Plugins.Touch.Cnds.IsTouchingObject,
-		C3.Plugins.System.Cnds.TriggerOnce,
-		C3.Plugins.Touch.Cnds.OnTouchEnd,
+		C3.Plugins.Touch.Cnds.OnTouchStart,
 		C3.ScriptsInEvents.Game_ev_Event91_Act1,
 		C3.Behaviors.Tween.Cnds.IsAnyPlaying,
 		C3.ScriptsInEvents.Game_ev_Event92_Act2,
-		C3.Plugins.Spritefont2.Exps.Y,
 		C3.Plugins.Spritefont2.Acts.SetDefaultColor,
 		C3.Plugins.System.Exps.int,
 		C3.Plugins.System.Exps.tokenat,
 		C3.Plugins.System.Acts.SetFunctionReturnValue,
 		C3.Plugins.Sprite.Exps.UID,
-		C3.ScriptsInEvents.Game_ev_Event108_Act2,
-		C3.Plugins.Sprite.Acts.SetPos,
-		C3.Plugins.Sprite.Acts.MoveToTop,
-		C3.Plugins.Browser.Acts.GoToURLWindow
+		C3.ScriptsInEvents.Game_ev_Event108_Act2
 	];
 };
 self.C3_JsPropNameTable = [
@@ -4110,6 +4108,7 @@ self.C3_ExpressionFuncs = [
 			const n0 = p._GetNode(0);
 			return () => (n0.ExpObject() + 1);
 		},
+		() => 1,
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0();
@@ -4122,7 +4121,6 @@ self.C3_ExpressionFuncs = [
 		},
 		() => 0.3,
 		() => 0,
-		() => 1,
 		() => 0.2,
 		p => {
 			const n0 = p._GetNode(0);
@@ -4153,7 +4151,6 @@ self.C3_ExpressionFuncs = [
 		},
 		() => 0.8,
 		() => -35,
-		() => "TapAnywhere_LO",
 		p => {
 			const v0 = p._GetNode(0).GetVar();
 			return () => v0.GetValue();
@@ -4181,6 +4178,23 @@ self.C3_ExpressionFuncs = [
 			const n0 = p._GetNode(0);
 			return () => (n0.ExpObject() + 20);
 		},
+		() => "MINI TUTORIAL",
+		() => 128,
+		() => 2,
+		() => 4000,
+		p => {
+			const n0 = p._GetNode(0);
+			return () => n0.ExpInstVar();
+		},
+		() => 288,
+		() => 444,
+		() => "GO",
+		() => 64,
+		() => 180,
+		() => 537,
+		() => 276,
+		() => "https://bit.ly/332BSo4",
+		() => "NewWindow",
 		() => "GENERATION",
 		() => "pause",
 		() => "Game Has Started",
@@ -4209,7 +4223,6 @@ self.C3_ExpressionFuncs = [
 		() => -200,
 		() => "down",
 		() => "SOME",
-		() => 128,
 		() => "messages",
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
@@ -4227,7 +4240,6 @@ self.C3_ExpressionFuncs = [
 			return () => f0(0, 20);
 		},
 		() => "completed",
-		() => 2,
 		() => "no",
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
@@ -4277,10 +4289,6 @@ self.C3_ExpressionFuncs = [
 		},
 		() => "GAMES",
 		() => "SUPER EFFECTS",
-		p => {
-			const n0 = p._GetNode(0);
-			return () => n0.ExpInstVar();
-		},
 		() => "vertical",
 		() => 2000,
 		() => 90,
@@ -4375,18 +4383,7 @@ self.C3_ExpressionFuncs = [
 			const f0 = p._GetNode(0).GetBoundMethod();
 			const v1 = p._GetNode(1).GetVar();
 			return () => f0(v1.GetValue());
-		},
-		() => "MINI TUTORIAL",
-		() => 4000,
-		() => 288,
-		() => 444,
-		() => "GO",
-		() => 64,
-		() => 180,
-		() => 537,
-		() => 276,
-		() => "https://bit.ly/332BSo4",
-		() => "NewWindow"
+		}
 ];
 
 
